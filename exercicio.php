@@ -23,7 +23,9 @@
     <main class="principal">
     <div class="conteudo">
 
-
+    <?php 
+        include("teste/teste.php");  // carrega um codigo php
+    ?>
 
     </div>
 
