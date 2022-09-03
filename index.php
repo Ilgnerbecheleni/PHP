@@ -20,8 +20,8 @@
    <nav class="modulos">
     <div class="modulo verde"><h3>Módulo 01</h3>
     <ul>
-        <li><a href="exercicio.php">Exercicio A</a></li>
-   
+        <li><a href="exercicio.php?dir=Basico&file=ola">Olá PHP</a></li>
+        <li><a href="exercicio.php?dir=Basico&file=html">HTML</a></li>
     </ul>
     </div>
    

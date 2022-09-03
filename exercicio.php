@@ -16,7 +16,7 @@
         <h2>Visualização do Exercicio</h2>
     </header>
     <nav class="navegacao">
-        <a href="./teste/teste.php" class="verde">Sem formatação</a>
+    <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
 
     </nav>
@@ -24,7 +24,7 @@
     <div class="conteudo">
 
     <?php 
-        include("teste/teste.php");  // carrega um codigo php
+        include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); // carrega um codigo php
     ?>
 
     </div>
