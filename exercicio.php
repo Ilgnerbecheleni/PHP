@@ -16,7 +16,7 @@
         <h2>Visualização do Exercicio</h2>
     </header>
     <nav class="navegacao">
-        <a href="#" class="verde">Sem formatação</a>
+        <a href="./teste/teste.php" class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
 
     </nav>
